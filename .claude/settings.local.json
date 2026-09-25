@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(winget install *)",
+      "Bash(git *)",
+      "Bash(gh --version)",
+      "Bash(where gh *)",
+      "Bash(powershell.exe -Command \"Get-Command gh -ErrorAction SilentlyContinue\")"
+    ]
+  }
+}
